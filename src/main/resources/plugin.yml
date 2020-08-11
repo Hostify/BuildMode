@@ -1,0 +1,27 @@
+name: ${project.name}
+version: ${project.version}
+main: me.hostify.buildmode.BuildMode
+api-version: 1.15
+authors: [Hostify]
+description: ${project.description}
+commands:
+  buildmode:
+    usage: /<command>
+    description: Toggle build
+    aliases: [build, bm]
+permissions:
+  buildmode.*:
+    description: All permissions for BuildMode
+    children:
+      buildmode.use: true
+      buildmode.use.others: true
+      buildmode.reload: true
+  buildmode.use:
+    description: Toggle your own build
+    default: op
+  buildmode.use.others:
+    description: Toggle other's build
+    default: op
+  buildmode.reload:
+    description: Reload BuildMode plugin
+    default: op

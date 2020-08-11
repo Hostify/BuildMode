@@ -1,0 +1,36 @@
+#####################################################
+#   ____        _ _     _ __  __           _        #
+#  | __ ) _   _(_) | __| |  \/  | ___   __| | ___   #
+#  |  _ \| | | | | |/ _` | |\/| |/ _ \ / _` |/ _ \  #
+#  | |_) | |_| | | | (_| | |  | | (_) | (_| |  __/  #
+#  |____/ \__,_|_|_|\__,_|_|  |_|\___/ \__,_|\___|  #
+#####################################################
+
+settings:
+  enable-on-join: true
+  disable-worldedit: true
+messages:
+  prefix: '&a&lBuild&f&lMode &8&l>> '
+  no-permission: '&cYou do not have permission to execute this command.'
+  command-usage: '&cUsage: /buildmode <player>'
+  player-only-command: '&cThis command is only available to players!'
+  reloaded: '&aBuildMode has been successfully reloaded.'
+  build-enabled: '&aYour build has been enabled.'
+  build-disabled: '&cYour build has been disabled.'
+  build-enabled-player: '&aYou have enabled %PLAYER%''s build.'
+  build-disabled-player: '&cYou have disabled %PLAYER%''s build.'
+  player-not-online: '&cPlayer %PLAYER% not found.'
+  build-currently-disabled: '&cYour build is currently disabled!'
+  worldedit-disabled: '&cWorldEdit is currently disabled!'
+  version: '&7Running v%VERSION%, made by Hostify'
+  help:
+    - '&8&m-----------------------------------'
+    - '&a&lBuild&f&lMode &a&lHelp'
+    - '&8&m-----------------------------------'
+    - '&a/buildmode &8- &7Toggles your build mode'
+    - '&a/buildmode &f<player> &8- &7Toggles player''s build mode'
+    - '&a/buildmode &fhelp &8- &7Displays this'
+    - '&a/buildmode &freload &8- &7Reloads the plugin'
+    - '&a/buildmode &fversion &8- &7Shows plugin version'
+    - '&7&oAliases: /build, /bm'
+    - '&8&m-----------------------------------'
