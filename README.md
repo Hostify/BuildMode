@@ -1,9 +1,9 @@
 # BuildMode
 
-Allow staff to toggle their build
+BuildMode is a simple, lightweight plugin to allow your staff to toggle their build and destroy abilities. This was originally created for staff to prevent them from accidentally breaking or placing blocks in creative mode, but this plugin can serve other purposes as well. Additionally, as an option, you can disable the use of WorldEdit commands while in the restricted build mode.
 
 ## Quick Links
-  - [Spigot Page]
+  - [Spigot Page](https://www.spigotmc.org/resources/buildmode.82654/)
 
 ## License
 
