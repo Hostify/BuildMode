@@ -39,7 +39,7 @@ public class BuildModeCommand implements CommandExecutor {
                 sender.sendMessage(MessageUtils.getVersion().replace("%VERSION%", plugin.getDescription().getVersion()));
             } else {
                 if (sender.hasPermission(plugin.useOthersPermission)) {
-                    Player receiver = Bukkit.getPlayer((args[0]));
+                    Player receiver = Bukkit.getPlayer(args[0]);
                     if (receiver != null) {
                         toggleMode(sender, receiver);
                     } else {
